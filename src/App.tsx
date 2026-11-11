@@ -1,5 +1,7 @@
 import './App.css'
 import ShapeWaves from "./component/ShapeWaves.tsx";
+import githubIcon from "./assets/images/github.svg";
+import linkedinIcon from "./assets/images/linkedin.svg";
 
 function App() {
   const githubUrl = "https://github.com/AlasDev";
@@ -12,8 +14,14 @@ function App() {
           <div className="main">
               <h1>Work in progress...</h1>
               <p>This page will be turned into a place i can use to display my projects</p>
-              <a className="button" href={linkedinUrl} target="_blank" rel="noreferrer">LinkedIn</a>
-              <a className="button" href={githubUrl} target="_blank" rel="noreferrer">GitHub</a>
+              <div className="links">
+                  <a href={linkedinUrl} target="_blank" rel="noreferrer">
+                      <img className="imageIcon" src={linkedinIcon} alt="LinkedIn"/>
+                  </a>
+                  <a href={githubUrl} target="_blank" rel="noreferrer">
+                      <img className="imageIcon" src={githubIcon} alt="GitHub"/>
+                  </a>
+              </div>
           </div>
       </>
   )

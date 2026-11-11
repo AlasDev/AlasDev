@@ -14,11 +14,34 @@
   --core-text-shadow: #0A0C0E;
 
   /* Fonts */
-  --font-A: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
-  --font-B: 'Inter', 'Arial Black', sans-serif;
+  --font-VHS: 'VHS', sans-serif;
+  --font-Papillon: 'Papillon', sans-serif;
 }
 
 :root {
-  font: var(--font-A);
-  color: var(--core-cyan);
+  font-family: var(--font-VHS), sans-serif;
+}
+
+@font-face {
+  font-family: 'VHS';
+  src: url('./assets/fonts/eas-vhs.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Papillon';
+  src: url('./assets/fonts/Papillon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Papillon';
+  src: url('./assets/fonts/PapillonBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
