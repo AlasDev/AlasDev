@@ -2,10 +2,12 @@ import './App.css'
 import ShapeWaves from "./component/ShapeWaves.tsx";
 import githubIcon from "./assets/images/github.svg";
 import linkedinIcon from "./assets/images/linkedin.svg";
+import steamIcon from "./assets/images/steam.svg";
 
 function App() {
   const githubUrl = "https://github.com/AlasDev";
   const linkedinUrl = "https://www.linkedin.com/in/davide-sala-686554294/";
+  const steamUrl = "https://steamcommunity.com/id/AlasDev/";
   return (
       <>
           <div className="background">
@@ -20,6 +22,9 @@ function App() {
                   </a>
                   <a href={githubUrl} target="_blank" rel="noreferrer">
                       <img className="imageIcon" src={githubIcon} alt="GitHub"/>
+                  </a>
+                  <a href={steamUrl} target="_blank" rel="noreferrer">
+                      <img className="imageIcon" src={steamIcon} alt="Steam"/>
                   </a>
               </div>
           </div>
