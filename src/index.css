@@ -2,11 +2,8 @@
 
 :root {
   /* Core Palette */
-  --core-volt: #E0FF00;
-  --core-cyan: #00F0FF;
-  --core-magenta: #FF0055;
-  --core-orange: #FF5500;
-  --core-black: #0A0C0E;
+  --color-blue: #0259DD;
+  --color-orange: #EF5225;
 
   /* Text */
   --core-text-main: #F0F4F8;
