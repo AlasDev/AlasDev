@@ -1,0 +1,16 @@
+.links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+img.linkIcon {
+    width: auto;
+    min-width: 30px;
+    max-width: 50px;
+    height: 100%;
+    min-height: 30px;
+    max-height: 50px;
+    object-fit: contain;
+    padding: 15px;
+}

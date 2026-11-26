@@ -1,0 +1,11 @@
+.Card {
+    box-sizing: border-box;
+    width: var(--cardWidth, 100%);
+    height: var(--cardHeight, 100%);
+    border: var(--cardBorderWidthPx, 3px) solid currentColor;
+    background-color: color-mix(in srgb, var(--cardBg, #0A0C0E) var(--cardTransparency, 50%), transparent);
+    border-radius: 10px;
+    padding: 10px 10px;
+    flex: auto;
+    align-items: center;
+}

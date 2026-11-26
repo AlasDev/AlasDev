@@ -342,7 +342,7 @@ export default function ShapeWaves({
                                        dotSize = 0.50,
                                        color = '#929292',
                                        hoverColor = '#FFFFFF',
-                                       backgroundColor = '#000000',
+                                       backgroundColor = '#0A0C0E',
                                        speed = 1,
                                        scale = 1,
                                        contrast = 1,
